@@ -16,11 +16,12 @@ If this error concerns you, you can follow these alternate installation instruct
 
 1. Run ```dpkg -i wpaspray-1.0-x86_64.deb```
 2. Run ```apt install -f```
+
 And you should encounter no errors.
 
 ## Examples
 
-### Usage
+#### Usage
 ```
 ~# wpaspray -h
 usage: wpaspray [-h] [-s] [-i INTERFACE] [-w WORDLIST] [-b BSSID] [-t TIMEOUT]             
@@ -43,7 +44,7 @@ optional arguments:
                         attempt. Default is no timeout.
 ```
 
-### Scan for available target access points:
+#### Scan for available target access points:
 ```
 ~# wpaspray -i wlan1 -s
 [ INIT ] Initializing...
@@ -62,7 +63,7 @@ C0:C1:C0:E6:2B:BD  Bright                          2.4 Ghz    -75 dBm  WPA2    w
 84:94:8C:BF:FA:38  CGN-FA30                        2.4 Ghz    -77 dBm  WPA2    wpa-psk
 ```
 
-### Target a specific AP
+#### Target a specific AP
 ```
 ~# wpaspray -i wlan0 -b e4:8d:8c:5c:07:cb -w wordlist.txt
 [ INIT ] Initializing...
@@ -94,3 +95,12 @@ C0:C1:C0:E6:2B:BD  Bright                          2.4 Ghz    -75 dBm  WPA2    w
 [ SPRAY ] # Pre-Shared Key: 'TestPass12345!' #                                          
 [ SPRAY ] ####################################
 ```
+
+## Building From Source
+
+If you choose to build the package yourself you can follow the guide below.
+
+1. Clone the repository. `git clone github.com/nodocify/wpaspray.git`
+2. Make sure you have EPM installed. `sudo apt install epm`
+3. Navigate into the wpaspray directory and run `epm -f deb -v wpaspray`
+4. EPM will create a new directory named after your kernel. Deb is located inside.

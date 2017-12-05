@@ -4,7 +4,7 @@ $bindir=/usr/bin
 %description A utility to spray passwords at WPA-PSK configured APs.
 %copyright 2017 Nodocify
 %vendor Nodocify
-%version 1.0
+%version 1.0.1
 %readme README
 %license LICENSE
 %requires python3.6
@@ -17,4 +17,4 @@ echo "wpa_supplicant still installed, run 'pip3 uninstall wpa_supplicant' to rem
 EOF
 
 %system all
-f 755 root sys ${bindir}/wpaspray wpa-spray.py
+f 755 root sys ${bindir}/wpaspray wpaspray.py

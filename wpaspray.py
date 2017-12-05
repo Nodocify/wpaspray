@@ -117,7 +117,7 @@ class wpa_spray(object):
         print(bcolors.WARNING + '[ SPRAY ] ' + bcolors.ENDC + 'Starting password spray...')
         target_bss = None
         for bss in scan_results:
-            if bss.get_bssid() == self.bssid:
+            if bss.get_bssid() == self.bssid.upper():
                 target_bss = bss
                 break
         try:
@@ -204,7 +204,7 @@ class bcolors:
 
 if __name__ == '__main__':
     import argparse
-    parser = argparse.ArgumentParser(description='WPA-Spray, an attack vector for spraying WPA Pre-Shared Keys against an access point.')
+    parser = argparse.ArgumentParser(description='WPASpray, an attack vector for spraying WPA Pre-Shared Keys against an access point.')
     parser.add_argument('-s', '--scan',
                         action='store_true',
                         default=False,

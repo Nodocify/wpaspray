@@ -104,3 +104,7 @@ If you choose to build the package yourself you can follow the guide below.
 2. Make sure you have EPM installed. `sudo apt install epm`
 3. Navigate into the wpaspray directory and run `epm -f deb -v wpaspray`
 4. EPM will create a new directory named after your kernel. Deb is located inside.
+
+## To Do
+* Have option to randomize MAC every X number of PSK attempts.
+* Option to create a delay between attempts. Helpful for lower end access points.

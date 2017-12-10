@@ -54,7 +54,7 @@ optional arguments:
 [ SCAN ] Printing results...
       BSSID                     SSID               FREQUENCY  SIGNAL    TYPE   KEYMGMT 
 ---------------------------------------------------------------------------------------
-E4:8D:8C:5C:07:CB  Logicverse                      2.4 Ghz    -23 dBm  WPA2    wpa-psk   
+E4:8D:8C:5C:07:CB  TestingWPA                      2.4 Ghz    -23 dBm  WPA2    wpa-psk   
 DC:EF:09:A6:06:22  NETGEAR73                       2.4 Ghz    -61 dBm  WPA2    wpa-psk   
 F0:F2:49:8B:90:48  CGNM-9048                       2.4 Ghz    -63 dBm  WPA2    wpa-psk   
 64:77:7D:9F:B6:D8  CGNM-B6D8                       2.4 Ghz    -69 dBm  WPA2    wpa-psk   

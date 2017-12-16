@@ -19,7 +19,7 @@ If this error concerns you, you can follow these alternate installation instruct
 
 And you should encounter no errors.
 
-## Examples
+## Examples (ran as root)
 
 #### Usage
 ```

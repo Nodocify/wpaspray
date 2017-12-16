@@ -9,7 +9,7 @@ A WiFi attack vector for spraying WPA Pre-Shared Keys against an access point.
 
 ### Note
 
-When installing in Kali if you see the error ```N: Download is performed unsandboxed as root as file ...``` it is safe to ignore.
+When installing in Kali, as root, if you see the error ```N: Download is performed unsandboxed as root as file ...``` it is safe to ignore.
 
 This is just apt saying that it doesn't have an ```_apt``` user to download and install the .deb file with that is non-root, non-login, and sandboxed.
 If this error concerns you, you can follow these alternate installation instructions:

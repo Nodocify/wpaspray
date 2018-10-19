@@ -4,7 +4,7 @@ A WiFi attack vector for spraying WPA Pre-Shared Keys against an access point.
 
 ## Installation
 
-1. Navigate to the [releases page](../releases) and donwload the latest .deb
+1. Navigate to the [releases page](../../releases) and donwload the latest .deb
 2. Run ```apt install ./wpaspray-1.0-x86_64.deb```
 
 ### Note
